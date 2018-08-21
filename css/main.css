@@ -1,0 +1,109 @@
+/***** BASE STYLES******/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    
+    font-size: 30px;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #77a365;
+}
+h2{
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #77a365;
+}
+h3{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+p{
+    font-size: 16px;
+}
+/******* Grid Setup ******/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width{
+    width: 600px;
+    float: left;
+
+}
+
+.third-width{
+    width: 360px;
+    float: left;
+    padding: 17px;
+}
+/******** Header Style ********/
+header{
+    margin-top: 40px;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: Uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #77a365;
+}
+img{
+    border-bottom: solid 3px #77a365;
+    border-top: solid 3px #77a365;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/******** Specials Section Style ********/
+#specials{
+    height: 175px;
+    border-top: 3px solid #dddadb;
+    border-bottom: 3px solid #dddadb;
+}
+/******** Review Section Style ********/
+#review{
+    height: 175px;
+    border: 3px solid #dddadb;
+
+}
+
+/******** Contact Section Style ********/
+#contact{
+    height: 175px;
+    border-top: 3px solid #dddadb;
+    border-bottom: 3px solid #dddadb;
+
+}
+/******** Footer Style ********/
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+footer{
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#fresh{
+    font-family: "Wisdom Script", cursive;
+    font-weight: normal;
+    text-transform: lowercase;
+    color: #77a365;
+}
